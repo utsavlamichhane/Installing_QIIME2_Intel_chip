@@ -16,7 +16,8 @@ mkdir -p ~/miniconda3
 Then get the .sh (script) using the following code:
 
 ```
-curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o ~/miniconda3/miniconda.sh
+curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o ~/miniconda3/miniconda.sh
+
 ```
 
 Then run the following code:
@@ -77,44 +78,10 @@ Close and quit the terminal.
 
 # Step 12
 
-This is the first step in configuring the Terminal to use Rosetta
-
-Open a new finder and open applications.
-
-# Step 13
-
-Find the Terminal inside the utilities.
-
-# Step 14
-
-Right click on the Terminal and select duplicate from the appearing options. 
-
-After this, you will see another Terminal icon named Terminal copy.
-
-For ease, rename that Terminal capy as Terminal_Rosetta
-
-# Step 15
-
-Now right click on this new Terminal_Rosetta and click in get info.
-
-# Step 16
-
-On the info tab, under the heading General you will see "Open using Rosetta".
-
-Mark that box.
-
-# Step 17
-
-On the Terminal_Rosetta lets intall the QIIME2 version 2025.4
-
-Run the following code in the Terminal_Rosetta:
+Install the QIIM2 2025.4 from the gitrepo of qiime2, using the following code:
 
 ```
-CONDA_SUBDIR=osx-64 conda env create \
-  --name qiime2-amplicon-2025.4 \
-  --file https://raw.githubusercontent.com/qiime2/distributions/refs/heads/dev/2025.4/amplicon/released/qiime2-amplicon-macos-latest-conda.yml
-conda activate qiime2-amplicon-2025.4
-conda config --env --set subdir osx-64
+conda env create --name qiime2-amplicon-2025.4 --file https://raw.githubusercontent.com/qiime2/distributions/refs/heads/dev/2025.4/amplicon/released/qiime2-amplicon-macos-latest-conda.yml
 ```
 
  # THIS PROCESS WILL TAKE A WHILE
@@ -122,16 +89,13 @@ conda config --env --set subdir osx-64
 
 At the end, terminal might ask yes/no, go with  yes
 
-# Step 18
-
-Close and quit the Terminal_Rosetta
 
 
 # Now you have QIIME2 Installed in your system
 
 # Step 19
 
-Just to confirm that run the following command in your normal Terminal (no need to use the Terminal_Rosetta now onwards):
+Just to make sure that run the following command in your normal Terminal (no need to use the Terminal_Rosetta now onwards):
 
 ```
 conda deactivate
