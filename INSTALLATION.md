@@ -93,9 +93,9 @@ At the end, terminal might ask yes/no, go with  yes
 
 # Now you have QIIME2 Installed in your system
 
-# Step 19
+# Step 13
 
-Just to make sure that run the following command in your normal Terminal (no need to use the Terminal_Rosetta now onwards):
+Just to make sure that run the following command in Terminal:
 
 ```
 conda deactivate
