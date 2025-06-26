@@ -7,7 +7,7 @@ Open a new terminal in your mac
 
 Create a new directory using the following command:
 
-```{bash}
+```
 mkdir -p ~/miniconda3
 ```
 
