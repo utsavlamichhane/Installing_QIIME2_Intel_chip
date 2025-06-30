@@ -1,4 +1,4 @@
-Installing QIIME 2 on macOS Intel Chips
+# Installing QIIME 2 on macOS Intel Chips
 
 A concise overview and pointers for installing QIIME 2 on Intel-based Macs.
 
