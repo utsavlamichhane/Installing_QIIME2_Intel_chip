@@ -1,18 +1,11 @@
 # Installing QIIME 2 on macOS Intel Chips
 
-A concise overview and pointers for installing QIIME 2 on Intel-based Macs.
+Installing QIIME 2 on Intel-based Macs.
 
-Installation
+# Installation
 
 All detailed, step-by-step instructions are available in INSTALLATION.md.
 
-Repository Contents
-
-INSTALLATION.md: Comprehensive installation guide for Intel (x86_64) macOS.
-
-(Optional) Scripts or helper tools to simplify setup.
-
-LICENSE: Licensing information.
 
 Quick Start
 
