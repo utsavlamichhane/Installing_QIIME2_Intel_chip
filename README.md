@@ -22,5 +22,5 @@ QIIME 2 Documentation: https://docs.qiime2.org
 
 QIIME 2 Forum: https://forum.qiime2.org
 
-
+Contact me if you have any confusion: www.utsavlamichhane.com
 
