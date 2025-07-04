@@ -11,7 +11,7 @@ All detailed, step-by-step instructions are available in INSTALLATION.md.
 
 Once installation is complete, run:
 ```
-conda activate qiime2-2024.6
+conda activate qiime2-2025.4
 qiime --help
 ```
 
